@@ -14,10 +14,10 @@ static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#f8f8f2", "#1b2126" },
 	[SchemeSel] = { "#f8f8f2", "#00A8E8" },
-	[SchemeSelHighlight] = { "#ffc978", "#1b2126" }, // #282a36
-	[SchemeNormHighlight] = { "#ffc978", "#1b2126" },
+	[SchemeSelHighlight] = { "#51cf7e", "#1b2126" }, // #282a36
+	[SchemeNormHighlight] = { "#51cf7e", "#1b2126" },
 	[SchemeOut] = { "#1b2126", "#69acd6" },
-	[SchemeOutHighlight] = { "#ffc978", "#69acd6" },
+	[SchemeOutHighlight] = { "#51cf7e", "#69acd6" },
 	[SchemeHp] = { "#bbbbbb", "#1b2126" },
 };
 
@@ -33,4 +33,4 @@ static int histnodup           = 1;	/* if 0, record repeated histories */
 static const char worddelimiters[] = " ";
 
 /* Size of the window border */
-static const unsigned int border_width = 2;
+static const unsigned int border_width = 1;
