@@ -6,19 +6,19 @@ static int centered = 0;                    /* -c option; centers dmenu on scree
 static int min_width = 500;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"JetBrainsMono NF:style:medium:size=10",
+	"Hack NF:style:medium:size=10",
     "Noto Color Emoji:size=10",
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#f8f8f2", "#1b2126" },
-	[SchemeSel] = { "#f8f8f2", "#00A8E8" },
-	[SchemeSelHighlight] = { "#51cf7e", "#1b2126" }, // #282a36
-	[SchemeNormHighlight] = { "#51cf7e", "#1b2126" },
-	[SchemeOut] = { "#1b2126", "#69acd6" },
-	[SchemeOutHighlight] = { "#51cf7e", "#69acd6" },
-	[SchemeHp] = { "#bbbbbb", "#1b2126" },
+	[SchemeNorm] = { "#C1C8D6", "#242C3E" },
+	[SchemeSel] = { "#C1C8D6", "#0080C9" },
+	[SchemeSelHighlight] = { "#7896C8", "#242C3E" },
+	[SchemeNormHighlight] = { "#7896C8", "#242C3E" },
+	[SchemeOut] = { "#242C3E", "#6478A8" },
+	[SchemeOutHighlight] = { "#7896C8", "#6478A8" },
+	[SchemeHp] = { "#bbbbbb", "#242C3E" },
 };
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
